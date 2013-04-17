@@ -1,0 +1,16 @@
+<mockup version="1.0" skin="sketch" measuredW="1111" measuredH="1040" mockupW="996" mockupH="963">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="115" y="77" w="996" h="963" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ESPN%0Ahttp%3A//espn.go.com/</text>
+        <value>0</value>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Image" x="120" y="152" w="970" h="859" measuredW="970" measuredH="859" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../screenshots/screenshot_espn_desktop.png</src>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Lab 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/font-awesome.min.css" rel="stylesheet" />
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
+<link href="css/my-styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Lab 1</h1>
+
+<form id="myForm" class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="firstName">First Name</label>
+    <div class="controls">
+      <input type="text" id="firstName" placeholder="first name...">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="lastName">Last Name</label>
+    <div class="controls">
+      <input type="text" id="lastName" placeholder="last name...">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <label class="checkbox"><input type="checkbox" id="chk"> I like cheese!</label>
+      <button type="button" class="btn btn-large" id="go">GO!</button>
+    </div>
+  </div>
+</form>
+
+<p id="output" style="display:none;"></p>
+
+</div><!-- /container -->
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+$('#go').click(function() {
+  var full = $('#firstName').val() + ' ' + $('#lastName').val();
+  var likes = $('#chk').is(':checked') ? 'likes ' : 'does NOT like';
+  var output = 'Seems that ' + full + ' ' + likes + ' cheese!'
+  $('#output').text(output).fadeIn(500).delay(5000).fadeOut(500);
+});
+</script>
+
+</body>
+</html>

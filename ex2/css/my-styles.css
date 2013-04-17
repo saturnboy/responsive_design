@@ -1,0 +1,24 @@
+/* Large desktop */
+@media (min-width: 980px) {
+  body { background-color:#f9c; }
+  
+  /* story margin */
+  /* story max-width */
+  /* story column-count, -webkit-column-count, -moz-column-count */
+  #story { }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  body { background-color:#aaa; }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body { background-color:#9cf; }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  body { background-color:#eee; }
+}

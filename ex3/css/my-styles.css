@@ -18,6 +18,14 @@
   body { background-color:#eee; }
 }
 
+form {
+background-color:#fff;
+padding:16px;
+-webkit-border-radius:8px;
+   -moz-border-radius:8px;
+        border-radius:8px;
+}
+
 #output {
 background-color:#333;
 color:#fff;
@@ -25,4 +33,22 @@ padding:8px;
 -webkit-border-radius:8px;
    -moz-border-radius:8px;
         border-radius:8px;
+}
+
+.row .span-1, .row .span-2 {
+background-color:#fff;
+padding:8px;
+}
+
+.show-grid {
+margin-bottom:4px;
+}
+.show-grid [class*="span"] {
+background-color: #fff;
+min-height:30px;
+line-height:30px;
+text-align:center;
+-webkit-border-radius:4px;
+   -moz-border-radius:4px;
+        border-radius:4px;
 }

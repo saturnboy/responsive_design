@@ -1,21 +1,25 @@
 /* Large desktop */
 @media (min-width: 980px) {
   body { background-color:#f9c; }
+#story { -webkit-column-count:4; -moz-column-count:4; column-count:4; }
 }
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   body { background-color:#aaa; }
+  #story { -webkit-column-count:3; -moz-column-count:3; column-count:3; }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   body { background-color:#9cf; }
+  #story { -webkit-column-count:2; -moz-column-count:2; column-count:2; }
 }
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
   body { background-color:#eee; }
+  #story { -webkit-column-count:1; -moz-column-count:1; column-count:1; }
 }
 
 form {
